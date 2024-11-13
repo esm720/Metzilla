@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Hero from "./components/Hero";
 import AppBar from "./components/AppBar";
+import HeroBlockOne from "./components/HeroBlockOne";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <AppBar />
       <Hero />
+      <HeroBlockOne />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
